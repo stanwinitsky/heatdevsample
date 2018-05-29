@@ -1,0 +1,6 @@
+#!/bin/bash
+echo isExistApp = `pgrep httpd`
+echo "if [[ -n  $isExistApp ]]; then"
+echo     service httpd stop        
+echo fi
+
